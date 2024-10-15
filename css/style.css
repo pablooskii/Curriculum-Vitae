@@ -1,4 +1,11 @@
 selector {
     background-color: coral; 
-    background-color: #F5F5DC; 
+    background-color: #F5F5DC;
   }
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  
