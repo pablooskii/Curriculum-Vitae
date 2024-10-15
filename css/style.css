@@ -1,4 +1,10 @@
 body{
-  background-color: coral; 
+  background-color: #3498db;
 }
-  
+
+.card{
+  background-color: blueviolet;
+  width: 700px;
+  box-sizing: border-box;
+  margin: auto;
+}
