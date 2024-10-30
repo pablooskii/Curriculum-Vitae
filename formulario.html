@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="card">
+    <form action="" method="post" tabindex="1">
+        <p>
+            <fieldset>
+                <legend><h2>Datos Personales</h2></legend>
+                <p>Nombre: <input type="text" name="Nombre" size="22"></p>
+                <p>Apellidos: <input type="text" name="Apellidos" size="22"></p>
+                <p>Edad: <input type="number" min="0" name="Edad"></p>
+                <p>Genero:</p>
+                <p>
+                    <input type="radio" name="Genero">Hombre
+                    <input type="radio" name="Genero"> Mujer
+                </p>
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend><h2>Contacto</h2></legend>
+                <p>Correo Electrónico: <input type="email" name="Correo" size="22"></p>
+                <p>Código Postal: <input type="number" min="0" name="Codigo Postal" size="22"></p>
+                <p>Dirección: <input type="text" name="Dirección" size="22"></p>
+                <p>Ciudad:
+                    <select name="ciudad" size="1">
+                        <option value="1">Jaén</option>
+                        <option value="2">Granada</option>
+                        <option value="3">Malaga</option>
+                        <option value="4">Sevilla</option>
+                        <option value="5">Cadiz</option>
+                    </select>
+                </p>
+                <p>Contraseña: <input type="password" name="contraseña" ></p>
+            </fieldset>
+
+        </p>
+
+        <p>
+            <fieldset>
+                <legend><h2>Datos de Interés</h2></legend>
+                <p>Estado civil:</p>
+                    <input type="radio" name="Casado">Casado
+                    <input type="radio" name="No Casado">No Casado
+                <p>Hobbies:</p>
+                    <p><input type="checkbox" name="Deporte">Deporte</p>
+                    <input type="checkbox" name="Cine">Cine</p>
+                    <p><input type="checkbox" name="Lectura">Lectura</p>
+                    <p><input type="checkbox" name="Correr">Correr</p>
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend><h2>Comentarios Adicionales</h2></legend>
+                <p>Escribe aqui tus comentarios:</p>
+                <p><textarea rows="5" cols="40" name="comentarios" placeholder="Escribe tus comentarios aqui"></textarea></p>
+            </fieldset>
+        </p>
+
+        <p><input type="submit"> <input type="reset"></p>
+    </form>
+</body>
+</html>
