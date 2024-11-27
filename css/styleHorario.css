@@ -1,0 +1,13 @@
+body{
+    background-color:  blueviolet;
+    font-family: "Georgia";
+    font-style: italic;
+  }
+  
+  .card{
+    background-color: rgb(217, 176, 255);
+    width: 700px;
+    box-sizing: border-box;
+    margin: auto;
+    
+  }
